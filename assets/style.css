@@ -1,0 +1,70 @@
+#ticket{
+    max-width: 25px;
+  height: auto;
+}
+
+.body{
+  background-color:black;
+}
+
+.ticket{
+  position: relative;
+  bottom:30px;
+  left: 10px;
+}
+
+.BuyTicket{
+  text-decoration: none;
+  color: whitesmoke;
+}
+ 
+
+.BuyTicket:hover{
+  color:rgb(27, 128, 168);
+}
+
+.image{
+  overflow: hidden;
+}
+
+
+.image img{
+  transition: all 1s;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+.footer{
+  background: rgb(74, 56, 56);
+  height: auto;
+  width: 100vw;
+  font-family: ;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ .social{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin:1rem 0 3rem 0;
+} 
+
+#login{
+  /* position:absolute; */
+  margin-left: 800px;
+}
+
+.nav-link{
+  pro
+}
+
+.nav-link:hover{
+    color: red !important;
+}
